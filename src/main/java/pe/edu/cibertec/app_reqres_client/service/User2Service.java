@@ -13,4 +13,8 @@ public class User2Service {
     public User2 createUser(User2 user) {
         return user2Client.createUser(user);
     }
+
+    public User2 actuUser(User2 user2,Long id){
+        return user2Client.actuUser(user2,id);
+    }
 }
